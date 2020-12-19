@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-
+ 
 class UserInput extends Component {
 
   state = {
