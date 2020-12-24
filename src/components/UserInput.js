@@ -46,4 +46,4 @@ class UserInput extends Component {
   }
 }
 
-export default connect(mapStateToProps)(UserInput);
+export default connect()(UserInput);

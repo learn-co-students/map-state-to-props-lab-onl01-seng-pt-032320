@@ -4,10 +4,9 @@ import App from './App'
 import { Provider } from 'react-redux'
 import manageUsers from './reducers/manageUsers'
 import { createStore } from 'redux';
-import './App.css'
 
 
-// add imports and code
+
 const store = createStore(manageUsers,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 
