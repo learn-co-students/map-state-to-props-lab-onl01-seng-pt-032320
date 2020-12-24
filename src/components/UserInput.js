@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
+import mapStateToProps from './Users.js'
+import Users from './Users.js'
 
 class UserInput extends Component {
 
