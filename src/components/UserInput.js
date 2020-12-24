@@ -3,16 +3,9 @@ import { connect } from 'react-redux'
 
 class UserInput extends Component {
 
-  state = {
-    username: '',
-    hometown: ''
-  }
+  state = { username: '', hometown: '' }
 
-  handleInputChange = (event) => {
-    this.setState({
-      [event.target.id]: event.target.value
-    });
-  }
+  handleInputChange = (event) => { this.setState({[event.target.id]: event.target.value}); }
 
   handleOnSubmit = (event) => {
     event.preventDefault();
